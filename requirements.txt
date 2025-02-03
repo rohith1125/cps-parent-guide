@@ -1,5 +1,6 @@
 llama-index-core
 llama-index-embeddings-huggingface
+llama-index-vector-stores-pinecone
 llama-index-llms-openai
 huggingface-hub
 pinecone-client
