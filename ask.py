@@ -25,7 +25,7 @@ if not pinecone_api_key:
     st.error("PINECONE_API_KEY environment variable not set!")
     st.stop()
 
-pc_index = "cps_parents"  # Changed to CPS parents index
+pc_index = "askneu"  # Changed to askneu index
 pc = Pinecone(api_key=pinecone_api_key)
 pinecone_index = pc.Index(pc_index)
 
